@@ -27,4 +27,4 @@ La base de datos cuenta con 1548 observaciones y 18 columnas que se detallan a c
 
  ## Tratamiento de los datos
 
- En primer lugar, se procede a separar la cantidad numérica, de la unidad de medidad. Por ejemplo, en la variable $precio\_uf$, se presentan observaciones en formato "183000000pesos", o bien la cantidad esta junto a su unidad de medida, $103 m^2$ como ocurre con la variable $superficie\_total$, entre otras.
+ En primer lugar, se procede a separar la cantidad numérica, de la unidad de medidad. Por ejemplo, en la variable $precio_uf$, se presentan observaciones en formato "183000000pesos", o bien la cantidad esta junto a su unidad de medida, $103 m^2$ como ocurre con la variable $superficie_total$, entre otras.
