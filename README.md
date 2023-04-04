@@ -27,4 +27,8 @@ La base de datos cuenta con 1548 observaciones y 18 columnas que se detallan a c
 
  ## Tratamiento de los datos
 
- En primer lugar, se procede a separar la cantidad numérica, de la unidad de medidad. Por ejemplo, en la variable $precio_uf$, se presentan observaciones en formato "183000000pesos", o bien la cantidad esta junto a su unidad de medida, $103 m^2$ como ocurre con la variable $superficie_total$, entre otras.
+En primer lugar, se lleva a cabo un proceso de separación de la cantidad numérica de la unidad de medida correspondiente en cada variable. Por ejemplo, en el caso de la variable $precio_{uf}$, se pueden observar registros en formato "183000000 pesos", o bien la cantidad se presenta junto a su unidad de medida, como sucede con la variable $superficie_{total}$ expresada en $103 m^2$, entre otras situaciones similares.
+
+Adicionalmente, se procede a crear nuevas variables que permitan identificar la presencia o ausencia de características específicas en las diferentes propiedades, como loggia, bodega, piscina o cercanía al metro, entre otras.
+
+Finalmente, se desarrollan diversos modelos de regresión para predecir el precio de las propiedades, evaluando su desempeño respectivo.
